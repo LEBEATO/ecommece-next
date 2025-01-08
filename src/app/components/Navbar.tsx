@@ -1,4 +1,7 @@
+
 import Link from "next/link";
+
+
 
 export default function Navbar() {
     return (
@@ -8,6 +11,15 @@ export default function Navbar() {
                 className="uppercase font-bold text-md h-12 flex items-center">
                 Next Stor
             </Link>
+            <div className="flex items-center gap-8">
+
+               
+                <button className="border rounded-md border-gray-400 px-3 py-2 hover:bg-slate-800">
+                    Fazer login
+                </button>
+             
+
+            </div>
 
         </nav>
     );
